@@ -39,3 +39,38 @@ Aprendi sobre a definição de variáveis, como envia-las para o corpo de websit
     // Lembrando que '' não conseguem enviar variáveis em uma String!
 ?>
 ``` 
+
+## :tv: Dia `16/07/2021`:]
+
+Nesse dia eu aprendi sobre as funções aritméticas no PHP, que foi algo muito simples:
+- Somar: `+`
+- Subtrair: `-`
+- Multiplicar: `*`
+- Dividir: `/`
+- Modulo: `%`
+
+Aprendi a como fazer a busca de dados dentro de uma **Query** na **URL**:
+```php
+<?php
+    $numero1 = $_GET["Numero1"];
+    $numero2 = $_GET["Numero2"];
+    $resultado = $numero1 + $numero2;
+
+    // http://localhost/curso-php/aula5.php?Numero1=10%Numero2=10
+
+    echo "<h1>Resultado é $resultado</h1>";
+?>
+```
+
+E as funções matemáticas, onde possui meios de pegar valores absolutos, potenciação, aiz quadrada, arredondamento, buscar a parte inteira de um valor real e realizar a formatação de um valor numérico!
+```php
+<?php
+    $absoluto = abs($numero1);
+    $potenciacao = pow($numero1, $numero2);
+    $raiz = sqrt($numero1);
+    $arredondamento = round($numero1); // ceil ou floor
+
+    $inteira = intval($numero1);
+    $formatarMoney = number_format($numero1, 2, ",", ".");
+?>
+```
