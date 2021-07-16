@@ -2,7 +2,7 @@
  
 <img src="./assets/logo.png" width="100%">
 
-:thinking: Atualmente comecei a estudar a linguagem PHP, e percebi que é muito fácil de aprender, uma simples linguagem que era utilizada para template, agora virou uma das linguagens mais usadas na internet. Comecei a ver a Playlist do (Curso em Vídeo)[https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ].
+:thinking: Atualmente comecei a estudar a linguagem PHP, e percebi que é muito fácil de aprender, uma simples linguagem que era utilizada para template, agora virou uma das linguagens mais usadas na internet. Comecei a ver a Playlist do [Curso em Vídeo](https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ).
 
 ## :tv: Dia `15/07/2021`:
 
