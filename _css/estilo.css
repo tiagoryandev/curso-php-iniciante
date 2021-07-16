@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* Isso a globo não mostra */
+
+
+body {
+    background-image: url(_imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
