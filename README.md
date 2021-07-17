@@ -40,7 +40,7 @@ Aprendi sobre a definição de variáveis, como envia-las para o corpo de websit
 ?>
 ``` 
 
-## :tv: Dia `16/07/2021`:]
+## :tv: Dia `16/07/2021`:
 
 Nesse dia eu aprendi sobre as funções aritméticas no PHP, que foi algo muito simples:
 - Somar: `+`
@@ -72,5 +72,33 @@ E as funções matemáticas, onde possui meios de pegar valores absolutos, poten
 
     $inteira = intval($numero1);
     $formatarMoney = number_format($numero1, 2, ",", ".");
+?>
+```
+
+## :tv: Dia `17/07/2021`:
+
+Nessa aula foi meio chato, pois aprendi apenas os operadores de atribuição, referência de variáveis e variáveis de variáveis. é bem difícil de entender mais irei pegar o jeito.
+
+```php
+<?php
+    // Atribuição de Variáveis
+
+    $valor = 10;
+    $valor = $valor + 10; // Redefine o valor para o Valor + 10
+    $valor += 10; // Adiciona + 10
+    $valor++; // Adiciona 1
+
+    // Referência de Variáveis
+
+    $a = 10;
+    $b = &$a; // Faz referência a a
+    $c = $b + 10;
+
+    // Variáveis de Variáveis
+
+    $site = "cursoemvideo";
+    $$site = "cursophp";
+
+    echo "$site tem $cursoemvideo"; // Cria uma variável com o nome do valor da primeira variável                                             
 ?>
 ```
