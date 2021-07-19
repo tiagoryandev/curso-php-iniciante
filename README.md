@@ -102,3 +102,17 @@ Nessa aula foi meio chato, pois aprendi apenas os operadores de atribuição, re
     echo "$site tem $cursoemvideo"; // Cria uma variável com o nome do valor da primeira variável                                             
 ?>
 ```
+
+## :tv: Dia `18/07/2021`:
+Aprendi sobre operadores no PHP, aprendi rápido pois a syntax é muito parecida com javascript.
+
+```php
+<?php
+    $a > $b; // a maior que b
+    $a < $b; // a menor que b
+    $a >= $b; // a maior ou igual a b
+    $a <= $b; // a menor ou igual a b
+    $a == $b; // a igual b
+    $a === $b; // a com tipo e valor igual a b
+?>
+```
