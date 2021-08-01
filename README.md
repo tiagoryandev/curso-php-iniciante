@@ -116,3 +116,19 @@ Aprendi sobre operadores no PHP, aprendi rápido pois a syntax é muito parecida
     $a === $b; // a com tipo e valor igual a b
 ?>
 ```
+
+## :tv: Dia `01/09/2021`:
+
+Depois de muito tempo eu voltei e já assisti mais uma aula do curso de PHP, onde aprendi a enviar dados de um formulário para um arquivo PHP.
+
+Onde você pode criar um formulário e redireciona-se os dados para um arquivo PHP. Onde você pode usar os métodos `$_GET` para requisições GET e `$_POST` para requisições POST.
+
+E por fim, aprendi um pouco sobre condições no PHP, onde usamos o `isset` para verificar se um valor enviado em uma Query da URL está setada.
+
+```php
+<?php
+    $valor = isset($_GET["v"]) ? $_GET["v"] : "nenhum valor setado";
+
+    echo $valor;
+?>
+```
