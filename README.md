@@ -132,3 +132,19 @@ E por fim, aprendi um pouco sobre condições no PHP, onde usamos o `isset` para
     echo $valor;
 ?>
 ```
+
+# :tv: Dia `02/09/2021`:
+
+Hoje eu aprendi sobre os Operadores Condicionais, os famosos `IF`, `ELSE` e `ELSEIF`. Que é relativamente igual ao JavaScript.
+
+```php
+<?php
+    if (1 > 2) {
+        echo "1 é maior que 2";
+    } else {
+        echo "2 é maior que 1";
+    };
+
+    // imprime 2 é maior que 1
+?>
+```
