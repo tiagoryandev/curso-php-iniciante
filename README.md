@@ -148,3 +148,26 @@ Hoje eu aprendi sobre os Operadores Condicionais, os famosos `IF`, `ELSE` e `ELS
     // imprime 2 é maior que 1
 ?>
 ```
+
+# :tv: Dia `03/09/2021`:
+
+Nesse dia foi bem interessante, pois aprendi sobre os `Switch` e `Case`, que também é idêntico a syntax do JavaScript.
+
+
+```php
+<?php
+    $tipo = 1;
+
+    switch ($tipo) {
+        case 1:
+            echo "O tipo é 1";
+            break;
+        case 2:
+            echo "O tipo é 2";
+            break;
+        default: 
+            echo "O tipo é diferente de 1 e 2";
+            break; 
+    }
+?>
+```
