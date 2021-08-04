@@ -171,3 +171,29 @@ Nesse dia foi bem interessante, pois aprendi sobre os `Switch` e `Case`, que tam
     }
 ?>
 ```
+
+# :tv: Dia `04/09/2021`:
+
+Hoje aprendi sobre estruturas de repetição no PHP, `While` onde eu posso realizar uma ação várias vezes. E a estrutura inversa do `While`, o `Do`.
+
+```php
+<?php
+    $n = 10;
+
+    while ($n >= 0) {
+        echo "$n <br>";
+        $n-=2;
+    }
+?>
+```
+
+```php
+<?php
+    $c = 1;
+
+    do {
+        echo $c;
+        $c++;
+    } while ($c < 10);
+?>
+```
