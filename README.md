@@ -197,3 +197,15 @@ Hoje aprendi sobre estruturas de repetição no PHP, `While` onde eu posso reali
     } while ($c < 10);
 ?>
 ```
+
+# :tv: Dia `05/09/2021`:
+
+Para finalizar a parte de estrutura de repetições, aprendi sobre o `For` onde é uma opção mais fácil para realizar a repetição.
+
+```php
+<?php
+    for ($c = 0; $c < 10; $c++) {
+        echo "Contagem: $c";
+    }
+?>
+```
