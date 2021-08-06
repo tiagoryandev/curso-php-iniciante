@@ -209,3 +209,32 @@ Para finalizar a parte de estrutura de repetições, aprendi sobre o `For` onde 
     }
 ?>
 ```
+
+# :tv: Dia `06/09/2021`:
+
+Nessa aula estudei sobre Rotinas ou Funções no PHP, onde existe tipo de funções que retornam valores ou não retornam nada.
+
+```php
+<?
+    function naoRetorna ($a, $b) {
+        echo $a + $b;
+    };
+
+    naoRetorna(1, 2); // Imprime 3
+
+    function soma ($a, $b) {
+        $r = $a  $b;
+
+        return $r;
+    };
+
+    $resultado = soma(10, 10);
+
+    echo $resultado; // Imprime 20
+
+    // FUNÇÕES NATIVAS DO PHP
+
+    func_get_args(); // Retorna um Array com todos os argumentos da função
+    func_num_args(); // Retorna a quantidade de argumentos da função
+?>
+```
