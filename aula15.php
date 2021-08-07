@@ -10,7 +10,7 @@
     <h1>Rotinas ou Funções PT.2</h1>
 
     <?php
-        //include "aula15-functions.php";
+        include "aula15-functions.php";
 
         require "aula15-functions.php";
 
