@@ -238,3 +238,46 @@ Nessa aula estudei sobre Rotinas ou Funções no PHP, onde existe tipo de funç�
     func_num_args(); // Retorna a quantidade de argumentos da função
 ?>
 ```
+
+# :tv: Dia `07/09/2021`:
+
+Hoje aprendi sobre redefinição de variáveis em funções, inclusão e requisição de arquivos no PHP.
+```php
+<?php
+    function naoMuda ($a) {
+        $a = $a + 5;
+        echo $a;
+    };
+
+    $valor = 10;
+    naoMuda($valor); // imprime 15
+    echo $valor; // imprime 10
+
+    function muda (&$a) {
+        $a = $a + 5;
+        echo $a;
+    }; // O & faz referência á variável que será passada na função
+
+    $valor2 = 10;
+    muda($valor2); // imprime 15
+    echo $valor2; // imprime 15
+?>
+```
+Diferença entre o `INCLUDE` e `REQUIRE`:
+```php
+// ARQUIVO functions.php
+<?php
+    function somar ($a, $b) {
+        $x = $a + $b;
+        echo $x;
+    }
+?>
+
+// ARQUIVO index.php
+<?php
+    include "functions.php"; // Caso ocorra um erro no arquivo, o PHP não continuar o processo
+    require "functions.php"; // Caso tenha um erro no arquivo, o PHP para a execução do script
+
+    somar(1, 4);
+?>
+```
