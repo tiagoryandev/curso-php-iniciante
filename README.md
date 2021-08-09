@@ -281,3 +281,29 @@ Diferença entre o `INCLUDE` e `REQUIRE`:
     somar(1, 4);
 ?>
 ```
+
+# :tv: Dia `08/09/2021`:
+
+Hoje eu aprendi sobre `String Functions` ou **Funções String**, onde elas manipulam uma String no PHP. Existem várias, mais nesse dia aprendi algumas bem interessantes;
+
+`printF("Texto %tipo", $variável)` - Faz uma substituição de uma caracteres que começa com o `%` e seu tipo por uma variável.
+> Á vários tipos para usar, como d(Decimal), u(Decimal sem Sinal), f(Numero Real), s(String) e Etc.
+
+`print_r($variável)` - Mostra o tipo da variável.
+> também tem o `var_dump` e `var_export` que são variações dessa função.
+
+`wordwrap($texto, Numero de Letras para a Quebra, Quebra Visual, Pode quebrar uma palavra)` - Faz a quebra de uma String.
+
+`strlen($texto)` - Mostra a quantidade de caracteres de uma String.
+
+`trim($texto)` - Remove os espaços repetidos de uma String.
+> Também existe o `ltrim` para remover apenas espaços da esquerda (Left) e `rtrim` para remover espaços da direita (right).
+
+`str_word_count($frase, $tipo)` - Contar ou Gerar vetores de uma String.
+> 0 => Contar as palavras
+> 1 => Gerar um Vetor
+> 2 => Gerar um Vetor com o posicionamento das palavras
+
+`str_split($texto)` - Separar cada letra de uma String.
+
+`join($texto, "Conteúdo entre cada Array")` - Juntar cada letra ou palavra de um vetor
