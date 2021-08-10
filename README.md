@@ -307,3 +307,31 @@ Hoje eu aprendi sobre `String Functions` ou **Funções String**, onde elas mani
 `str_split($texto)` - Separar cada letra de uma String.
 
 `join($texto, "Conteúdo entre cada Array")` - Juntar cada letra ou palavra de um vetor
+
+# :tv: Dia `09/09/2021`:
+
+Mais 12 Funções Strings:
+
+`strtolower($frase)` - Deixa tudo em Minúsculo;
+
+`strtoupper($frase)` - Deixa tudo Maiúsculo;
+
+`ucfirst($nome)` - Deixa a primeira letra da fase em Maiúscula;
+
+`ucwords($nome)` - Deixa a primeira letra das palavras em Maiúsculas;
+
+`strrev($nome)` - Reverte uma string;
+
+`strpos($frase, "PHP")` - Posição da palavra;
+
+`stripos($frase, "php")` - Posição da palavra mesmo sendo maiúsculas ou minúsculas;
+
+`substr_count($frase, "PHP")` - Quantas vezes a string PHP foi encontrada na frase;
+
+`substr($site, 0, 5)` - Corta uma frase do começo 0 até a 5 letra;
+
+`str_pad($nome, 30, " ", STR_PAD_RIGHT)` - Adicionar conteúdo entre frases de direção esquerda, centro ou direita;
+
+`str_repeat("Php", 5)` - Realizar a repetição de strings;
+
+`str_replace("PHP", "php", $frase)` - Realizar a substituição de uma palavra em uma string;
