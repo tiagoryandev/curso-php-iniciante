@@ -335,3 +335,55 @@ Mais 12 Funções Strings:
 `str_repeat("Php", 5)` - Realizar a repetição de strings;
 
 `str_replace("PHP", "php", $frase)` - Realizar a substituição de uma palavra em uma string;
+
+# :tv: Dia `09/09/2021`:
+
+Hoje é a penúltima aula do curso de php, e estudei a primeira parte de vetores e matrizes, onde no php não existe matrizes como no javascript. Mais é possível fazer uma espécie de matriz usando vetores:
+
+```php
+    <?php
+    $n = array(0, 10, 10);
+    $n[] = 15;
+    print_r($n);
+
+    echo "<br><br>";
+
+    $c = range(5, 20, 5);
+    print_r($c);
+
+    echo "<br><br>";
+
+    foreach ($c as $valor) {
+        echo "$valor ";
+    };
+
+    echo "<br><br>";
+
+    $v = array(
+        "test" => "a", 
+        3 => "b", 
+        6 => "c", 
+        8 => "d"
+    );
+    unset($v[1]);
+    print_r($v["test"]);
+
+    echo "<br><br>";
+
+    $cad = array(
+        "nome" => "tiago",
+        "idade" => 16
+    );
+
+    foreach($cad as $campo => $valor) {
+        echo "O campo $campo é $valor<br>";
+    };
+
+    $objeto = array(
+        "nomes" => array("tiago", "pedro")
+    );
+
+    print_r($objeto);
+
+?>
+```
